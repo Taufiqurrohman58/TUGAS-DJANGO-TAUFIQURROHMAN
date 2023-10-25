@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <center>
+        <header>
+            <a href="{% url 'index' %}">Beranda</a> |
+            <a href="{% url 'about' %}">About</a> |
+            <a href="https://instagram.com/ifiqurr_ft?igshid=ZGUzMzM3NWJiOQ==">Instagram</a>
+        </header>
+    </center>
+    
+    {% block content %}
+    
+    {% endblock %}
+       
+    </center>  
+</body>
+</html>
